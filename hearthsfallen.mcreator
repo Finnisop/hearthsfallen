@@ -1,0 +1,49 @@
+{
+  "mod_elements": [
+    {
+      "name": "SilkSpider",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silk_spider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hearthsfallen/entity/SilkSpiderEntity.java",
+          "src/main/resources/data/hearthsfallen/forge/biome_modifier/silk_spider_biome_modifier.json",
+          "src/main/java/net/mcreator/hearthsfallen/client/renderer/SilkSpiderRenderer.java",
+          "src/main/resources/assets/hearthsfallen/models/item/silk_spider_spawn_egg.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.hearthsfallen.silk_spider_spawn_egg": "Silk Spider Spawn Egg",
+      "entity.hearthsfallen.silk_spider": "Silk Spider"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "hearthsfallen",
+    "modName": "Fabula\u0027s HearthsFallen Mod",
+    "version": "1.0.0",
+    "author": "charm, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.hearthsfallen"
+  },
+  "mcreatorVersion": 202400342716
+}
