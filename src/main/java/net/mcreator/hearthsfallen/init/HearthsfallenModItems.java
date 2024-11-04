@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.hearthsfallen.item.TestgreatswordItem;
 import net.mcreator.hearthsfallen.HearthsfallenMod;
 
 public class HearthsfallenModItems {
@@ -20,6 +21,7 @@ public class HearthsfallenModItems {
 	public static final RegistryObject<Item> SILK_SPIDER_SPAWN_EGG = REGISTRY.register("silk_spider_spawn_egg", () -> new ForgeSpawnEggItem(HearthsfallenModEntities.SILK_SPIDER, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> SILKWOOD_LOG = block(HearthsfallenModBlocks.SILKWOOD_LOG);
 	public static final RegistryObject<Item> SILKWOOD_LEAVES = block(HearthsfallenModBlocks.SILKWOOD_LEAVES);
+	public static final RegistryObject<Item> TESTGREATSWORD = REGISTRY.register("testgreatsword", () -> new TestgreatswordItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

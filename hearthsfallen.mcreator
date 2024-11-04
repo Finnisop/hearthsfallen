@@ -61,6 +61,37 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "TestgreatswordToolInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testgreatsword_tool_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hearthsfallen/procedures/TestgreatswordToolInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Testgreatsword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testgreatsword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hearthsfallen/models/item/testgreatsword.json",
+          "src/main/java/net/mcreator/hearthsfallen/item/TestgreatswordItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -74,12 +105,16 @@
     ],
     "BLOCKS:minecraft:mineable/hoe": [
       "~CUSTOM:SilkwoodLeaves"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Testgreatsword"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "block.hearthsfallen.silkwood_log": "Silkwood Log",
+      "item.hearthsfallen.testgreatsword": "Testgreatsword",
       "item.hearthsfallen.silk_spider_spawn_egg": "Silk Spider Spawn Egg",
       "block.hearthsfallen.silkwood_leaves": "Silkwood Leaves",
       "entity.hearthsfallen.silk_spider": "Silk Spider"

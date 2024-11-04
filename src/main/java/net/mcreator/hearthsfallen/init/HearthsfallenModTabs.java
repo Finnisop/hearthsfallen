@@ -30,6 +30,10 @@ public class HearthsfallenModTabs {
 			tabData.accept(HearthsfallenModBlocks.SILKWOOD_LOG.get().asItem());
 			tabData.accept(HearthsfallenModBlocks.SILKWOOD_LEAVES.get().asItem());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+
+			tabData.accept(HearthsfallenModItems.TESTGREATSWORD.get());
+
 		}
 	}
 }
