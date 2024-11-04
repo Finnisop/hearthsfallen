@@ -30,13 +30,46 @@
           "src/main/resources/data/hearthsfallen/loot_tables/blocks/silkwood_log.json"
         ]
       }
+    },
+    {
+      "name": "SilkwoodLogString",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silkwood_log_string",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hearthsfallen/recipes/silkwood_log_string.json"
+        ]
+      }
+    },
+    {
+      "name": "SilkwoodLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silkwood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hearthsfallen/block/SilkwoodLeavesBlock.java",
+          "src/main/resources/assets/hearthsfallen/models/item/silkwood_leaves.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_leaves.json",
+          "src/main/resources/assets/hearthsfallen/blockstates/silkwood_leaves.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:SilkwoodLeaves"
+    ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:SilkwoodLog"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:SilkwoodLeaves"
     ]
   },
   "tab_element_order": {},
@@ -44,6 +77,7 @@
     "en_us": {
       "block.hearthsfallen.silkwood_log": "Silkwood Log",
       "item.hearthsfallen.silk_spider_spawn_egg": "Silk Spider Spawn Egg",
+      "block.hearthsfallen.silkwood_leaves": "Silkwood Leaves",
       "entity.hearthsfallen.silk_spider": "Silk Spider"
     }
   },

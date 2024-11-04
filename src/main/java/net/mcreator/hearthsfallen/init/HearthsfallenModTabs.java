@@ -28,6 +28,7 @@ public class HearthsfallenModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 
 			tabData.accept(HearthsfallenModBlocks.SILKWOOD_LOG.get().asItem());
+			tabData.accept(HearthsfallenModBlocks.SILKWOOD_LEAVES.get().asItem());
 
 		}
 	}
