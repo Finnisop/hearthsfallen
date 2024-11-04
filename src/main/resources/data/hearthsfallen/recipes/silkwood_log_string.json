@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:shears"
+    },
+    {
+      "item": "hearthsfallen:silkwood_log"
+    }
+  ],
+  "result": {
+    "item": "minecraft:string",
+    "count": 4
+  }
+}

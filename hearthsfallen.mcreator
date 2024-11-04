@@ -12,8 +12,7 @@
           "src/main/java/net/mcreator/hearthsfallen/client/renderer/SilkSpiderRenderer.java",
           "src/main/resources/assets/hearthsfallen/models/item/silk_spider_spawn_egg.json"
         ]
-      },
-      "path": "~/Silkwood Biome"
+      }
     },
     {
       "name": "SilkwoodLog",
@@ -29,8 +28,7 @@
           "src/main/resources/assets/hearthsfallen/models/block/silkwood_log.json",
           "src/main/resources/data/hearthsfallen/loot_tables/blocks/silkwood_log.json"
         ]
-      },
-      "path": "~/Silkwood Biome"
+      }
     },
     {
       "name": "Hearthsfallen",
@@ -43,15 +41,16 @@
       }
     },
     {
-      "name": "PrototypeDagger",
-      "type": "tool",
-      "compiles": true,
+      "name": "TestDummy",
+      "type": "livingentity",
+      "compiles": false,
       "locked_code": false,
-      "registry_name": "prototype_dagger",
+      "registry_name": "test_dummy",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hearthsfallen/models/item/prototype_dagger.json",
-          "src/main/java/net/mcreator/hearthsfallen/item/PrototypeDaggerItem.java"
+          "src/main/java/net/mcreator/hearthsfallen/entity/TestDummyEntity.java",
+          "src/main/java/net/mcreator/hearthsfallen/client/renderer/TestDummyRenderer.java",
+          "src/main/resources/assets/hearthsfallen/models/item/test_dummy_spawn_egg.json"
         ]
       },
       "path": "~/Weapon Prototypes"
@@ -71,26 +70,94 @@
       "path": "~/Weapon Prototypes"
     },
     {
-      "name": "TestDummy",
-      "type": "livingentity",
-      "compiles": false,
+      "name": "PrototypeDagger",
+      "type": "tool",
+      "compiles": true,
       "locked_code": false,
-      "registry_name": "test_dummy",
+      "registry_name": "prototype_dagger",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hearthsfallen/entity/TestDummyEntity.java",
-          "src/main/java/net/mcreator/hearthsfallen/client/renderer/TestDummyRenderer.java",
-          "src/main/resources/assets/hearthsfallen/models/item/test_dummy_spawn_egg.json"
+          "src/main/resources/assets/hearthsfallen/models/item/prototype_dagger.json",
+          "src/main/java/net/mcreator/hearthsfallen/item/PrototypeDaggerItem.java"
         ]
       },
       "path": "~/Weapon Prototypes"
+    },
+    {
+      "name": "SilkwoodLogString",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silkwood_log_string",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hearthsfallen/recipes/silkwood_log_string.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SilkwoodLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silkwood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hearthsfallen/models/item/silkwood_leaves.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_leaves.json",
+          "src/main/java/net/mcreator/hearthsfallen/block/SilkwoodLeavesBlock.java",
+          "src/main/resources/assets/hearthsfallen/blockstates/silkwood_leaves.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "TestgreatswordToolInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testgreatsword_tool_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hearthsfallen/procedures/TestgreatswordToolInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Testgreatsword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testgreatsword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hearthsfallen/item/TestgreatswordItem.java",
+          "src/main/resources/assets/hearthsfallen/models/item/testgreatsword.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:SilkwoodLeaves"
+    ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:SilkwoodLog"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:SilkwoodLeaves"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Testgreatsword"
     ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:PrototypeDagger"
@@ -99,12 +166,8 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item_group.hearthsfallen.hearthsfallen": "Hearthsfallen",
       "block.hearthsfallen.silkwood_log": "Silkwood Log",
       "item.hearthsfallen.silk_spider_spawn_egg": "Silk Spider Spawn Egg",
-      "entity.hearthsfallen.test_dummy": "Test Dummy",
-      "item.hearthsfallen.prototype_dagger": "Prototype Dagger",
-      "item.hearthsfallen.test_dummy_spawn_egg": "Test Dummy Spawn Egg",
       "entity.hearthsfallen.silk_spider": "Silk Spider"
     }
   },
@@ -113,6 +176,18 @@
     "children": [
       {
         "name": "Silkwood Biome",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Entities",
+        "children": []
+      },
+      {
+        "name": "Blocks",
         "children": []
       },
       {
