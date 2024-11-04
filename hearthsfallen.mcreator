@@ -101,14 +101,14 @@
     {
       "name": "SilkwoodLeaves",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "silkwood_leaves",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/hearthsfallen/block/SilkwoodLeavesBlock.java",
           "src/main/resources/assets/hearthsfallen/models/item/silkwood_leaves.json",
           "src/main/resources/assets/hearthsfallen/models/block/silkwood_leaves.json",
-          "src/main/java/net/mcreator/hearthsfallen/block/SilkwoodLeavesBlock.java",
           "src/main/resources/assets/hearthsfallen/blockstates/silkwood_leaves.json"
         ]
       },
@@ -172,6 +172,7 @@
     "en_us": {
       "block.hearthsfallen.silkwood_log": "Silkwood Log",
       "item.hearthsfallen.silk_spider_spawn_egg": "Silk Spider Spawn Egg",
+      "block.hearthsfallen.silkwood_leaves": "Silkwood Leaves",
       "entity.hearthsfallen.silk_spider": "Silk Spider"
     }
   },
