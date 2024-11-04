@@ -13,7 +13,8 @@
           "src/main/java/net/mcreator/hearthsfallen/client/renderer/SilkSpiderRenderer.java",
           "src/main/resources/assets/hearthsfallen/models/item/silk_spider_spawn_egg.json"
         ]
-      }
+      },
+      "path": "~/Entities"
     },
     {
       "name": "SilkwoodLog",
@@ -29,7 +30,8 @@
           "src/main/resources/assets/hearthsfallen/blockstates/silkwood_log.json",
           "src/main/resources/data/hearthsfallen/loot_tables/blocks/silkwood_log.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "SilkwoodLogString",
@@ -41,7 +43,8 @@
         "files": [
           "src/main/resources/data/hearthsfallen/recipes/silkwood_log_string.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "SilkwoodLeaves",
@@ -56,7 +59,8 @@
           "src/main/resources/assets/hearthsfallen/models/block/silkwood_leaves.json",
           "src/main/resources/assets/hearthsfallen/blockstates/silkwood_leaves.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
@@ -83,7 +87,20 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Entities",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "hearthsfallen",
