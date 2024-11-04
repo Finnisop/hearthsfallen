@@ -101,7 +101,7 @@
     {
       "name": "SilkwoodLeaves",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "silkwood_leaves",
       "metadata": {
@@ -146,6 +146,29 @@
         ]
       },
       "path": "~/Weapon Prototypes"
+    },
+    {
+      "name": "TestDummyEntityIsHurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_dummy_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hearthsfallen/procedures/TestDummyEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Weapon Prototypes"
     }
   ],
   "variable_elements": [],
@@ -187,11 +210,11 @@
             "children": []
           },
           {
-            "name": "Blocks",
+            "name": "Recipes",
             "children": []
           },
           {
-            "name": "Recipes",
+            "name": "Blocks",
             "children": []
           }
         ]
