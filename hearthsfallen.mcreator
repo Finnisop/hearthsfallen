@@ -9,11 +9,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/hearthsfallen/entity/SilkSpiderEntity.java",
-          "src/main/resources/data/hearthsfallen/forge/biome_modifier/silk_spider_biome_modifier.json",
           "src/main/java/net/mcreator/hearthsfallen/client/renderer/SilkSpiderRenderer.java",
           "src/main/resources/assets/hearthsfallen/models/item/silk_spider_spawn_egg.json"
         ]
-      }
+      },
+      "path": "~/Silkwood Biome"
     },
     {
       "name": "SilkwoodLog",
@@ -25,11 +25,65 @@
         "files": [
           "src/main/java/net/mcreator/hearthsfallen/block/SilkwoodLogBlock.java",
           "src/main/resources/assets/hearthsfallen/models/item/silkwood_log.json",
-          "src/main/resources/assets/hearthsfallen/models/block/silkwood_log.json",
           "src/main/resources/assets/hearthsfallen/blockstates/silkwood_log.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_log.json",
           "src/main/resources/data/hearthsfallen/loot_tables/blocks/silkwood_log.json"
         ]
+      },
+      "path": "~/Silkwood Biome"
+    },
+    {
+      "name": "Hearthsfallen",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hearthsfallen",
+      "metadata": {
+        "files": []
       }
+    },
+    {
+      "name": "PrototypeDagger",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prototype_dagger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hearthsfallen/models/item/prototype_dagger.json",
+          "src/main/java/net/mcreator/hearthsfallen/item/PrototypeDaggerItem.java"
+        ]
+      },
+      "path": "~/Weapon Prototypes"
+    },
+    {
+      "name": "PrototypeDaggerRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prototype_dagger_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hearthsfallen/procedures/PrototypeDaggerRightclickedProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Weapon Prototypes"
+    },
+    {
+      "name": "TestDummy",
+      "type": "livingentity",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "test_dummy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hearthsfallen/entity/TestDummyEntity.java",
+          "src/main/java/net/mcreator/hearthsfallen/client/renderer/TestDummyRenderer.java",
+          "src/main/resources/assets/hearthsfallen/models/item/test_dummy_spawn_egg.json"
+        ]
+      },
+      "path": "~/Weapon Prototypes"
     }
   ],
   "variable_elements": [],
@@ -37,19 +91,35 @@
   "tag_elements": {
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:SilkwoodLog"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:PrototypeDagger"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item_group.hearthsfallen.hearthsfallen": "Hearthsfallen",
       "block.hearthsfallen.silkwood_log": "Silkwood Log",
       "item.hearthsfallen.silk_spider_spawn_egg": "Silk Spider Spawn Egg",
+      "entity.hearthsfallen.test_dummy": "Test Dummy",
+      "item.hearthsfallen.prototype_dagger": "Prototype Dagger",
+      "item.hearthsfallen.test_dummy_spawn_egg": "Test Dummy Spawn Egg",
       "entity.hearthsfallen.silk_spider": "Silk Spider"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Silkwood Biome",
+        "children": []
+      },
+      {
+        "name": "Weapon Prototypes",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "hearthsfallen",

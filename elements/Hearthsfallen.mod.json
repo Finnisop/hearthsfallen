@@ -1,0 +1,11 @@
+{
+  "_fv": 69,
+  "_type": "tab",
+  "definition": {
+    "name": "Hearthsfallen",
+    "icon": {
+      "value": "Items.GLASS_BOTTLE"
+    },
+    "showSearch": true
+  }
+}

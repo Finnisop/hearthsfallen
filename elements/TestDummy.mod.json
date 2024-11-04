@@ -2,10 +2,10 @@
   "_fv": 69,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Silk Spider",
-    "mobLabel": "",
-    "mobModelName": "Spider",
-    "mobModelTexture": "spider.png",
+    "mobName": "Test Dummy",
+    "mobLabel": "Test Dummy",
+    "mobModelName": "Biped",
+    "mobModelTexture": "alex.png",
     "transparentModelCondition": {
       "fixedValue": false
     },
@@ -16,15 +16,15 @@
       "fixedValue": false
     },
     "visualScale": {
-      "fixedValue": 0.4
+      "fixedValue": 1.0
     },
     "boundingBoxScale": {
       "fixedValue": 1.0
     },
     "modelLayers": [],
-    "modelWidth": 1.4,
-    "modelHeight": 0.9,
-    "modelShadowSize": 0.4,
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
@@ -40,8 +40,8 @@
         "value": "MISC"
       }
     ],
-    "isBoss": false,
-    "bossBarColor": "PINK",
+    "isBoss": true,
+    "bossBarColor": "RED",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
       "value": ""
@@ -61,13 +61,13 @@
     "equipmentBoots": {
       "value": ""
     },
-    "mobBehaviourType": "Creature",
-    "mobCreatureType": "ARTHROPOD",
-    "attackStrength": 1,
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 3,
     "attackKnockback": 0.0,
-    "knockbackResistance": 0.0,
-    "movementSpeed": 1.0,
-    "stepHeight": 1.0,
+    "knockbackResistance": 100.0,
+    "movementSpeed": 0.3,
+    "stepHeight": 0.6,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
     "followRange": 16,
@@ -84,7 +84,7 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "disableCollisions": true,
+    "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
@@ -105,24 +105,24 @@
       "value": ""
     },
     "livingSound": {
-      "value": "entity.spider.ambient"
+      "value": ""
     },
     "hurtSound": {
-      "value": "entity.spider.hurt"
+      "value": "entity.generic.hurt"
     },
     "deathSound": {
-      "value": "entity.spider.death"
+      "value": "entity.generic.death"
     },
     "stepSound": {
-      "value": "entity.spider.step"
+      "value": ""
     },
     "raidCelebrationSound": {
       "value": ""
     },
     "entityDataEntries": [],
-    "hasAI": true,
+    "hasAI": false,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"1912\" y=\"62\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">0.5</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"296\" y=\"78\"></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],
@@ -134,7 +134,7 @@
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
     "spawnThisMob": false,
-    "doesDespawnWhenIdle": true,
+    "doesDespawnWhenIdle": false,
     "spawningProbability": 20,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 4,
