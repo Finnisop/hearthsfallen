@@ -44,6 +44,6 @@ public class TestgreatswordItem extends PickaxeItem {
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		if (selected)
-			TestgreatswordToolInHandTickProcedure.execute(entity);
+			TestgreatswordToolInHandTickProcedure.execute();
 	}
 }

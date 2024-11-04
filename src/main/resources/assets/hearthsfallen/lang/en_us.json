@@ -1,6 +1,14 @@
 {
+  "item_group.hearthsfallen.hearthsfallen": "Hearthsfallen",
   "block.hearthsfallen.silkwood_log": "Silkwood Log",
   "item.hearthsfallen.silk_spider_spawn_egg": "Silk Spider Spawn Egg",
+  "entity.hearthsfallen.test_dummy": "Test Dummy",
   "block.hearthsfallen.silkwood_leaves": "Silkwood Leaves",
-  "entity.hearthsfallen.silk_spider": "Silk Spider"
+  "item.hearthsfallen.test_dummy_spawn_egg": "Test Dummy Spawn Egg",
+  "entity.hearthsfallen.silk_spider": "Silk Spider",
+  "block.hearthsfallen.silk_covering": "Silk Covering",
+  "block.hearthsfallen.silk_trap": "Silk Trap",
+  "item.hearthsfallen.testgreatsword": "Testgreatsword",
+  "item.hearthsfallen.prototype_dagger": "Prototype Dagger",
+  "block.hearthsfallen.silkwood_planks": "Silkwood Planks"
 }

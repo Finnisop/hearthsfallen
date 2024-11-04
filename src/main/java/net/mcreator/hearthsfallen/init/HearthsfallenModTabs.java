@@ -25,6 +25,8 @@ public class HearthsfallenModTabs {
 	public static final RegistryObject<CreativeModeTab> HEARTHSFALLEN = REGISTRY.register("hearthsfallen",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hearthsfallen.hearthsfallen")).icon(() -> new ItemStack(Items.GLASS_BOTTLE)).displayItems((parameters, tabData) -> {
 				tabData.accept(HearthsfallenModItems.PROTOTYPE_DAGGER.get());
+				tabData.accept(HearthsfallenModBlocks.SILKWOOD_PLANKS.get().asItem());
+				tabData.accept(HearthsfallenModBlocks.SILK_TRAP.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

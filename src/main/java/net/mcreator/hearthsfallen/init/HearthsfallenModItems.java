@@ -25,6 +25,9 @@ public class HearthsfallenModItems {
 	public static final RegistryObject<Item> PROTOTYPE_DAGGER = REGISTRY.register("prototype_dagger", () -> new PrototypeDaggerItem());
 	public static final RegistryObject<Item> SILKWOOD_LEAVES = block(HearthsfallenModBlocks.SILKWOOD_LEAVES);
 	public static final RegistryObject<Item> TESTGREATSWORD = REGISTRY.register("testgreatsword", () -> new TestgreatswordItem());
+	public static final RegistryObject<Item> SILKWOOD_PLANKS = block(HearthsfallenModBlocks.SILKWOOD_PLANKS);
+	public static final RegistryObject<Item> SILK_TRAP = block(HearthsfallenModBlocks.SILK_TRAP);
+	public static final RegistryObject<Item> SILK_COVERING = block(HearthsfallenModBlocks.SILK_COVERING);
 
 	// Start of user code block custom items
 	// End of user code block custom items

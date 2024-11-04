@@ -3,14 +3,14 @@
     {
       "name": "SilkSpider",
       "type": "livingentity",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "silk_spider",
       "metadata": {
         "files": [
+          "src/main/resources/assets/hearthsfallen/models/item/silk_spider_spawn_egg.json",
           "src/main/java/net/mcreator/hearthsfallen/entity/SilkSpiderEntity.java",
-          "src/main/java/net/mcreator/hearthsfallen/client/renderer/SilkSpiderRenderer.java",
-          "src/main/resources/assets/hearthsfallen/models/item/silk_spider_spawn_egg.json"
+          "src/main/java/net/mcreator/hearthsfallen/client/renderer/SilkSpiderRenderer.java"
         ]
       },
       "path": "~/Silkwood Biome/Entities"
@@ -18,15 +18,15 @@
     {
       "name": "SilkwoodLog",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "silkwood_log",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/hearthsfallen/block/SilkwoodLogBlock.java",
           "src/main/resources/assets/hearthsfallen/models/item/silkwood_log.json",
-          "src/main/resources/assets/hearthsfallen/blockstates/silkwood_log.json",
           "src/main/resources/assets/hearthsfallen/models/block/silkwood_log.json",
+          "src/main/resources/assets/hearthsfallen/blockstates/silkwood_log.json",
           "src/main/resources/data/hearthsfallen/loot_tables/blocks/silkwood_log.json"
         ]
       },
@@ -45,14 +45,14 @@
     {
       "name": "TestDummy",
       "type": "livingentity",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "test_dummy",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hearthsfallen/entity/TestDummyEntity.java",
+          "src/main/resources/assets/hearthsfallen/models/item/test_dummy_spawn_egg.json",
           "src/main/java/net/mcreator/hearthsfallen/client/renderer/TestDummyRenderer.java",
-          "src/main/resources/assets/hearthsfallen/models/item/test_dummy_spawn_egg.json"
+          "src/main/java/net/mcreator/hearthsfallen/entity/TestDummyEntity.java"
         ]
       },
       "path": "~/Weapon Prototypes"
@@ -74,7 +74,7 @@
     {
       "name": "PrototypeDagger",
       "type": "tool",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "prototype_dagger",
       "metadata": {
@@ -101,7 +101,7 @@
     {
       "name": "SilkwoodLeaves",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "silkwood_leaves",
       "metadata": {
@@ -117,7 +117,7 @@
     {
       "name": "TestgreatswordToolInHandTick",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "testgreatsword_tool_in_hand_tick",
       "metadata": {
@@ -126,7 +126,7 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
+            "name": "sourceentity",
             "type": "entity"
           }
         ]
@@ -141,8 +141,8 @@
       "registry_name": "testgreatsword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hearthsfallen/item/TestgreatswordItem.java",
-          "src/main/resources/assets/hearthsfallen/models/item/testgreatsword.json"
+          "src/main/resources/assets/hearthsfallen/models/item/testgreatsword.json",
+          "src/main/java/net/mcreator/hearthsfallen/item/TestgreatswordItem.java"
         ]
       },
       "path": "~/Weapon Prototypes"
@@ -169,6 +169,61 @@
         ]
       },
       "path": "~/Weapon Prototypes"
+    },
+    {
+      "name": "SilkwoodPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silkwood_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hearthsfallen/block/SilkwoodPlanksBlock.java",
+          "src/main/resources/assets/hearthsfallen/models/item/silkwood_planks.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_planks.json",
+          "src/main/resources/assets/hearthsfallen/blockstates/silkwood_planks.json",
+          "src/main/resources/data/hearthsfallen/loot_tables/blocks/silkwood_planks.json"
+        ]
+      },
+      "path": "~/Silkwood Biome/Blocks"
+    },
+    {
+      "name": "SilkTrap",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silk_trap",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hearthsfallen/blockstates/silk_trap.json",
+          "src/main/resources/assets/hearthsfallen/models/item/silk_trap.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silk_trap_open.json",
+          "src/main/java/net/mcreator/hearthsfallen/block/SilkTrapBlock.java",
+          "src/main/resources/data/hearthsfallen/loot_tables/blocks/silk_trap.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silk_trap.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silk_trap_top.json"
+        ]
+      },
+      "path": "~/Silkwood Biome/Blocks"
+    },
+    {
+      "name": "SilkCovering",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silk_covering",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hearthsfallen/block/SilkCoveringBlock.java",
+          "src/main/resources/assets/hearthsfallen/models/block/silk_covering_open.json",
+          "src/main/resources/assets/hearthsfallen/blockstates/silk_covering.json",
+          "src/main/resources/assets/hearthsfallen/models/item/silk_covering.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silk_covering.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silk_covering_top.json",
+          "src/main/resources/data/hearthsfallen/loot_tables/blocks/silk_covering.json"
+        ]
+      },
+      "path": "~/Silkwood Biome/Blocks"
     }
   ],
   "variable_elements": [],
@@ -193,10 +248,18 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item_group.hearthsfallen.hearthsfallen": "Hearthsfallen",
       "block.hearthsfallen.silkwood_log": "Silkwood Log",
       "item.hearthsfallen.silk_spider_spawn_egg": "Silk Spider Spawn Egg",
+      "entity.hearthsfallen.test_dummy": "Test Dummy",
       "block.hearthsfallen.silkwood_leaves": "Silkwood Leaves",
-      "entity.hearthsfallen.silk_spider": "Silk Spider"
+      "item.hearthsfallen.test_dummy_spawn_egg": "Test Dummy Spawn Egg",
+      "entity.hearthsfallen.silk_spider": "Silk Spider",
+      "block.hearthsfallen.silk_covering": "Silk Covering",
+      "block.hearthsfallen.silk_trap": "Silk Trap",
+      "item.hearthsfallen.testgreatsword": "Testgreatsword",
+      "item.hearthsfallen.prototype_dagger": "Prototype Dagger",
+      "block.hearthsfallen.silkwood_planks": "Silkwood Planks"
     }
   },
   "foldersRoot": {

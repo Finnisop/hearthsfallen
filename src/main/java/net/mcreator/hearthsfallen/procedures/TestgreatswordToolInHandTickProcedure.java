@@ -17,19 +17,19 @@ public class TestgreatswordToolInHandTickProcedure {
 	@SubscribeEvent
 	public static void onEntityAttacked(LivingAttackEvent event) {
 		if (event != null && event.getEntity() != null) {
-			execute(event, event.getEntity());
+			execute(event, event.getSource().getEntity());
 		}
 	}
 
-	public static void execute(Entity entity) {
-		execute(null, entity);
+	public static void execute(Entity sourceentity) {
+		execute(null, sourceentity);
 	}
 
-	private static void execute(@Nullable Event event, Entity entity) {
-		if (entity == null)
+	private static void execute(@Nullable Event event, Entity sourceentity) {
+		if (sourceentity == null)
 			return;
-		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == ItemStack.EMPTY.getItem()) {
-			if (entity instanceof Player _player) {
+		if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == ItemStack.EMPTY.getItem()) {
+			if (sourceentity instanceof Player _player) {
 				_player.getAbilities().invulnerable = false;
 				_player.onUpdateAbilities();
 			}
