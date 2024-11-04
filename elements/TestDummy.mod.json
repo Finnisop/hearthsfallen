@@ -40,7 +40,7 @@
         "value": "MISC"
       }
     ],
-    "isBoss": true,
+    "isBoss": false,
     "bossBarColor": "RED",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
@@ -120,6 +120,9 @@
       "value": ""
     },
     "entityDataEntries": [],
+    "whenMobIsHurt": {
+      "name": "TestDummyEntityIsHurt"
+    },
     "hasAI": false,
     "aiBase": "(none)",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"296\" y=\"78\"></block></xml>",
