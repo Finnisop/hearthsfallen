@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hearthsfallen:block/silkwood_logtop",
+    "up": "hearthsfallen:block/silkwood_logtop",
+    "north": "hearthsfallen:block/silkwoodlog_side",
+    "east": "hearthsfallen:block/silkwoodlog_side",
+    "south": "hearthsfallen:block/silkwoodlog_side",
+    "west": "hearthsfallen:block/silkwoodlog_side",
+    "particle": "hearthsfallen:block/silkwood_logtop"
+  },
+  "render_type": "solid"
+}

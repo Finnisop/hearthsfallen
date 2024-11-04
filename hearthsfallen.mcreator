@@ -14,14 +14,35 @@
           "src/main/resources/assets/hearthsfallen/models/item/silk_spider_spawn_egg.json"
         ]
       }
+    },
+    {
+      "name": "SilkwoodLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silkwood_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hearthsfallen/block/SilkwoodLogBlock.java",
+          "src/main/resources/assets/hearthsfallen/models/item/silkwood_log.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_log.json",
+          "src/main/resources/assets/hearthsfallen/blockstates/silkwood_log.json",
+          "src/main/resources/data/hearthsfallen/loot_tables/blocks/silkwood_log.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:SilkwoodLog"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "block.hearthsfallen.silkwood_log": "Silkwood Log",
       "item.hearthsfallen.silk_spider_spawn_egg": "Silk Spider Spawn Egg",
       "entity.hearthsfallen.silk_spider": "Silk Spider"
     }

@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.hearthsfallen.init.HearthsfallenModTabs;
 import net.mcreator.hearthsfallen.init.HearthsfallenModItems;
 import net.mcreator.hearthsfallen.init.HearthsfallenModEntities;
+import net.mcreator.hearthsfallen.init.HearthsfallenModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -40,6 +41,8 @@ public class HearthsfallenMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		HearthsfallenModBlocks.REGISTRY.register(bus);
 
 		HearthsfallenModItems.REGISTRY.register(bus);
 		HearthsfallenModEntities.REGISTRY.register(bus);

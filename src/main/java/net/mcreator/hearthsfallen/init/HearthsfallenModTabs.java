@@ -25,6 +25,10 @@ public class HearthsfallenModTabs {
 
 			tabData.accept(HearthsfallenModItems.SILK_SPIDER_SPAWN_EGG.get());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+
+			tabData.accept(HearthsfallenModBlocks.SILKWOOD_LOG.get().asItem());
+
 		}
 	}
 }
