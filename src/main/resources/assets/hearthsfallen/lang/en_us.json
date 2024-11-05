@@ -1,14 +1,24 @@
 {
+  "block.hearthsfallen.silkwood_door": "Silkwood Door",
   "item_group.hearthsfallen.hearthsfallen": "Hearthsfallen",
   "block.hearthsfallen.silkwood_log": "Silkwood Log",
   "item.hearthsfallen.silk_spider_spawn_egg": "Silk Spider Spawn Egg",
+  "block.hearthsfallen.silkwood_slab": "Silkwood Slab",
   "entity.hearthsfallen.test_dummy": "Test Dummy",
+  "block.hearthsfallen.silkwood_wood": "Silkwood Wood",
   "block.hearthsfallen.silkwood_leaves": "Silkwood Leaves",
   "item.hearthsfallen.test_dummy_spawn_egg": "Test Dummy Spawn Egg",
   "entity.hearthsfallen.silk_spider": "Silk Spider",
   "block.hearthsfallen.silk_covering": "Silk Covering",
+  "block.hearthsfallen.silkwood_pressure_plate": "Silkwood Pressure Plate",
+  "block.hearthsfallen.silkwood_trapdoor": "Silkwood Trapdoor",
   "block.hearthsfallen.silk_trap": "Silk Trap",
   "item.hearthsfallen.testgreatsword": "Testgreatsword",
+  "block.hearthsfallen.silkwood_fencegate": "Silkwood Fencegate",
+  "block.hearthsfallen.silkwood_fence": "Silkwood Fence",
+  "block.hearthsfallen.silkwood_button": "Silkwood Button",
   "item.hearthsfallen.prototype_dagger": "Prototype Dagger",
-  "block.hearthsfallen.silkwood_planks": "Silkwood Planks"
+  "block.hearthsfallen.stripped_silkwood_log": "Stripped Silkwood Log",
+  "block.hearthsfallen.silkwood_planks": "Silkwood Planks",
+  "block.hearthsfallen.stripped_silkwood_wood": "Stripped Silkwood Wood"
 }

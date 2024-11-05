@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "hearthsfallen:block/silkwood_slab"
+    },
+    "type=top": {
+      "model": "hearthsfallen:block/silkwood_slab_top"
+    },
+    "type=double": {
+      "model": "hearthsfallen:block/silkwood_slab_full"
+    }
+  }
+}

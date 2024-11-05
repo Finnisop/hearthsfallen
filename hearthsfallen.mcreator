@@ -224,6 +224,208 @@
         ]
       },
       "path": "~/Silkwood Biome/Blocks"
+    },
+    {
+      "name": "SilkwoodPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silkwood_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hearthsfallen/recipes/silkwood_planks_recipe.json"
+        ]
+      },
+      "path": "~/Silkwood Biome/Recipes"
+    },
+    {
+      "name": "SilkwoodSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silkwood_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_slab_full.json",
+          "src/main/java/net/mcreator/hearthsfallen/block/SilkwoodSlabBlock.java",
+          "src/main/resources/data/hearthsfallen/loot_tables/blocks/silkwood_slab.json",
+          "src/main/resources/assets/hearthsfallen/models/item/silkwood_slab.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_slab.json",
+          "src/main/resources/assets/hearthsfallen/blockstates/silkwood_slab.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_slab_top.json"
+        ]
+      },
+      "path": "~/Silkwood Biome/Blocks"
+    },
+    {
+      "name": "SilkwoodFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silkwood_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_fence_post.json",
+          "src/main/resources/assets/hearthsfallen/blockstates/silkwood_fence.json",
+          "src/main/resources/data/hearthsfallen/loot_tables/blocks/silkwood_fence.json",
+          "src/main/java/net/mcreator/hearthsfallen/block/SilkwoodFenceBlock.java",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_fence.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_fence_inventory.json",
+          "src/main/resources/assets/hearthsfallen/models/item/silkwood_fence.json"
+        ]
+      },
+      "path": "~/Silkwood Biome/Blocks"
+    },
+    {
+      "name": "SilkwoodFencegate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silkwood_fencegate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hearthsfallen/loot_tables/blocks/silkwood_fencegate.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_fencegate.json",
+          "src/main/resources/assets/hearthsfallen/blockstates/silkwood_fencegate.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_fencegate_open.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_fencegate_wall_open.json",
+          "src/main/resources/assets/hearthsfallen/models/item/silkwood_fencegate.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_fencegate_wall.json",
+          "src/main/java/net/mcreator/hearthsfallen/block/SilkwoodFencegateBlock.java"
+        ]
+      },
+      "path": "~/Silkwood Biome/Blocks"
+    },
+    {
+      "name": "SilkwoodButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silkwood_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_button_inventory.json",
+          "src/main/resources/data/hearthsfallen/loot_tables/blocks/silkwood_button.json",
+          "src/main/resources/assets/hearthsfallen/models/item/silkwood_button.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_button.json",
+          "src/main/resources/assets/hearthsfallen/blockstates/silkwood_button.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_button_pressed.json",
+          "src/main/java/net/mcreator/hearthsfallen/block/SilkwoodButtonBlock.java"
+        ]
+      },
+      "path": "~/Silkwood Biome/Blocks"
+    },
+    {
+      "name": "SilkwoodPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silkwood_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_pressure_plate_down.json",
+          "src/main/resources/assets/hearthsfallen/blockstates/silkwood_pressure_plate.json",
+          "src/main/resources/data/hearthsfallen/loot_tables/blocks/silkwood_pressure_plate.json",
+          "src/main/java/net/mcreator/hearthsfallen/block/SilkwoodPressurePlateBlock.java",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_pressure_plate.json",
+          "src/main/resources/assets/hearthsfallen/models/item/silkwood_pressure_plate.json"
+        ]
+      },
+      "path": "~/Silkwood Biome/Blocks"
+    },
+    {
+      "name": "StrippedSilkwoodLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_silkwood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hearthsfallen/models/block/stripped_silkwood_log.json",
+          "src/main/resources/assets/hearthsfallen/models/item/stripped_silkwood_log.json",
+          "src/main/resources/assets/hearthsfallen/blockstates/stripped_silkwood_log.json",
+          "src/main/resources/data/hearthsfallen/loot_tables/blocks/stripped_silkwood_log.json",
+          "src/main/java/net/mcreator/hearthsfallen/block/StrippedSilkwoodLogBlock.java"
+        ]
+      },
+      "path": "~/Silkwood Biome/Blocks"
+    },
+    {
+      "name": "SilkwoodWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silkwood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hearthsfallen/models/item/silkwood_wood.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_wood.json",
+          "src/main/resources/data/hearthsfallen/loot_tables/blocks/silkwood_wood.json",
+          "src/main/java/net/mcreator/hearthsfallen/block/SilkwoodWoodBlock.java",
+          "src/main/resources/assets/hearthsfallen/blockstates/silkwood_wood.json"
+        ]
+      },
+      "path": "~/Silkwood Biome/Blocks"
+    },
+    {
+      "name": "StrippedSilkwoodWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_silkwood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hearthsfallen/loot_tables/blocks/stripped_silkwood_wood.json",
+          "src/main/java/net/mcreator/hearthsfallen/block/StrippedSilkwoodWoodBlock.java",
+          "src/main/resources/assets/hearthsfallen/models/block/stripped_silkwood_wood.json",
+          "src/main/resources/assets/hearthsfallen/blockstates/stripped_silkwood_wood.json",
+          "src/main/resources/assets/hearthsfallen/models/item/stripped_silkwood_wood.json"
+        ]
+      },
+      "path": "~/Silkwood Biome/Blocks"
+    },
+    {
+      "name": "SilkwoodTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silkwood_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hearthsfallen/block/SilkwoodTrapdoorBlock.java",
+          "src/main/resources/assets/hearthsfallen/blockstates/silkwood_trapdoor.json",
+          "src/main/resources/data/hearthsfallen/loot_tables/blocks/silkwood_trapdoor.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_trapdoor.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_trapdoor_top.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_trapdoor_open.json",
+          "src/main/resources/assets/hearthsfallen/models/item/silkwood_trapdoor.json"
+        ]
+      },
+      "path": "~/Silkwood Biome/Blocks"
+    },
+    {
+      "name": "SilkwoodDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silkwood_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_door_top_right.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_door_bottom_right.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_door_top_left.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_door_bottom_right_open.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_door_top_right_open.json",
+          "src/main/java/net/mcreator/hearthsfallen/block/SilkwoodDoorBlock.java",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_door_top_left_open.json",
+          "src/main/resources/data/hearthsfallen/loot_tables/blocks/silkwood_door.json",
+          "src/main/resources/assets/hearthsfallen/blockstates/silkwood_door.json",
+          "src/main/resources/assets/hearthsfallen/models/item/silkwood_door.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_door_bottom_left_open.json",
+          "src/main/resources/assets/hearthsfallen/models/block/silkwood_door_bottom_left.json"
+        ]
+      },
+      "path": "~/Silkwood Biome/Blocks"
     }
   ],
   "variable_elements": [],
@@ -238,6 +440,12 @@
     "BLOCKS:minecraft:mineable/hoe": [
       "~CUSTOM:SilkwoodLeaves"
     ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:SilkwoodSlab"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:SilkwoodFence"
+    ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:Testgreatsword"
     ],
@@ -248,18 +456,28 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "block.hearthsfallen.silkwood_door": "Silkwood Door",
       "item_group.hearthsfallen.hearthsfallen": "Hearthsfallen",
       "block.hearthsfallen.silkwood_log": "Silkwood Log",
       "item.hearthsfallen.silk_spider_spawn_egg": "Silk Spider Spawn Egg",
+      "block.hearthsfallen.silkwood_slab": "Silkwood Slab",
       "entity.hearthsfallen.test_dummy": "Test Dummy",
+      "block.hearthsfallen.silkwood_wood": "Silkwood Wood",
       "block.hearthsfallen.silkwood_leaves": "Silkwood Leaves",
       "item.hearthsfallen.test_dummy_spawn_egg": "Test Dummy Spawn Egg",
       "entity.hearthsfallen.silk_spider": "Silk Spider",
       "block.hearthsfallen.silk_covering": "Silk Covering",
+      "block.hearthsfallen.silkwood_pressure_plate": "Silkwood Pressure Plate",
+      "block.hearthsfallen.silkwood_trapdoor": "Silkwood Trapdoor",
       "block.hearthsfallen.silk_trap": "Silk Trap",
       "item.hearthsfallen.testgreatsword": "Testgreatsword",
+      "block.hearthsfallen.silkwood_fencegate": "Silkwood Fencegate",
+      "block.hearthsfallen.silkwood_fence": "Silkwood Fence",
+      "block.hearthsfallen.silkwood_button": "Silkwood Button",
       "item.hearthsfallen.prototype_dagger": "Prototype Dagger",
-      "block.hearthsfallen.silkwood_planks": "Silkwood Planks"
+      "block.hearthsfallen.stripped_silkwood_log": "Stripped Silkwood Log",
+      "block.hearthsfallen.silkwood_planks": "Silkwood Planks",
+      "block.hearthsfallen.stripped_silkwood_wood": "Stripped Silkwood Wood"
     }
   },
   "foldersRoot": {

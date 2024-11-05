@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "minecraft:block/soul_campfire_fire"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_left_open",
+  "textures": {
+    "particle": "minecraft:block/soul_campfire_fire",
+    "bottom": "minecraft:block/soul_campfire_fire",
+    "top": "minecraft:block/campfire_fire"
+  },
+  "render_type": "solid"
+}

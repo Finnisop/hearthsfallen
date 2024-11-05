@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "hearthsfallen:block/silkwoodplanks",
+    "particle": "hearthsfallen:block/silkwoodplanks"
+  },
+  "render_type": "solid"
+}

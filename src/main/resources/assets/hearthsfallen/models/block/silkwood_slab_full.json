@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "hearthsfallen:block/silkwoodplanks",
+    "bottom": "hearthsfallen:block/silkwoodplanks",
+    "top": "hearthsfallen:block/silkwoodplanks",
+    "side": "hearthsfallen:block/silkwoodplanks"
+  },
+  "render_type": "solid"
+}

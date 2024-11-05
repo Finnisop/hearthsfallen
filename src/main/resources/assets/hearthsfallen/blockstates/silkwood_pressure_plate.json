@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "hearthsfallen:block/silkwood_pressure_plate"
+    },
+    "powered=true": {
+      "model": "hearthsfallen:block/silkwood_pressure_plate_down"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate",
+  "textures": {
+    "particle": "hearthsfallen:block/silkwoodplanks",
+    "texture": "hearthsfallen:block/silkwoodplanks"
+  },
+  "render_type": "solid"
+}

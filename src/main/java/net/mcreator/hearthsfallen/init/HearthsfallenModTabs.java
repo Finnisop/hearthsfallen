@@ -27,6 +27,8 @@ public class HearthsfallenModTabs {
 				tabData.accept(HearthsfallenModItems.PROTOTYPE_DAGGER.get());
 				tabData.accept(HearthsfallenModBlocks.SILKWOOD_PLANKS.get().asItem());
 				tabData.accept(HearthsfallenModBlocks.SILK_TRAP.get().asItem());
+				tabData.accept(HearthsfallenModBlocks.SILKWOOD_SLAB.get().asItem());
+				tabData.accept(HearthsfallenModBlocks.SILKWOOD_FENCE.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

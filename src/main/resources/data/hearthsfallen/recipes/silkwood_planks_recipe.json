@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hearthsfallen:silkwood_log"
+    }
+  ],
+  "result": {
+    "item": "hearthsfallen:silkwood_planks",
+    "count": 4
+  }
+}

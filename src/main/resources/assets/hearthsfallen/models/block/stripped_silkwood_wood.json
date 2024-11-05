@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "hearthsfallen:block/strippedsilkwoodlog",
+    "particle": "hearthsfallen:block/strippedsilkwoodlog"
+  },
+  "render_type": "solid"
+}
