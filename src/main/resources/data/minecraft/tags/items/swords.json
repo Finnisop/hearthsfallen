@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "hearthsfallen:testgreatsword",
     "hearthsfallen:prototype_dagger"
   ]
 }

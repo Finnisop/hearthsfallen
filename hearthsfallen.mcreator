@@ -136,7 +136,7 @@
     {
       "name": "Testgreatsword",
       "type": "tool",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "testgreatsword",
       "metadata": {
@@ -446,10 +446,8 @@
     "BLOCKS:minecraft:fences": [
       "~CUSTOM:SilkwoodFence"
     ],
-    "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:Testgreatsword"
-    ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:Testgreatsword",
       "~CUSTOM:PrototypeDagger"
     ]
   },

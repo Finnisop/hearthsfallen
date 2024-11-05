@@ -27,8 +27,17 @@ public class HearthsfallenModTabs {
 				tabData.accept(HearthsfallenModItems.PROTOTYPE_DAGGER.get());
 				tabData.accept(HearthsfallenModBlocks.SILKWOOD_PLANKS.get().asItem());
 				tabData.accept(HearthsfallenModBlocks.SILK_TRAP.get().asItem());
+				tabData.accept(HearthsfallenModBlocks.SILK_COVERING.get().asItem());
 				tabData.accept(HearthsfallenModBlocks.SILKWOOD_SLAB.get().asItem());
 				tabData.accept(HearthsfallenModBlocks.SILKWOOD_FENCE.get().asItem());
+				tabData.accept(HearthsfallenModBlocks.SILKWOOD_FENCEGATE.get().asItem());
+				tabData.accept(HearthsfallenModBlocks.SILKWOOD_BUTTON.get().asItem());
+				tabData.accept(HearthsfallenModBlocks.SILKWOOD_PRESSURE_PLATE.get().asItem());
+				tabData.accept(HearthsfallenModBlocks.STRIPPED_SILKWOOD_LOG.get().asItem());
+				tabData.accept(HearthsfallenModBlocks.SILKWOOD_WOOD.get().asItem());
+				tabData.accept(HearthsfallenModBlocks.STRIPPED_SILKWOOD_WOOD.get().asItem());
+				tabData.accept(HearthsfallenModBlocks.SILKWOOD_TRAPDOOR.get().asItem());
+				tabData.accept(HearthsfallenModBlocks.SILKWOOD_DOOR.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
