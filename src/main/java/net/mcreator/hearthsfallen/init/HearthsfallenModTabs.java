@@ -24,7 +24,9 @@ public class HearthsfallenModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, HearthsfallenMod.MODID);
 	public static final RegistryObject<CreativeModeTab> HEARTHSFALLEN = REGISTRY.register("hearthsfallen",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hearthsfallen.hearthsfallen")).icon(() -> new ItemStack(Items.GLASS_BOTTLE)).displayItems((parameters, tabData) -> {
+				tabData.accept(HearthsfallenModBlocks.SILKWOOD_LOG.get().asItem());
 				tabData.accept(HearthsfallenModItems.PROTOTYPE_DAGGER.get());
+				tabData.accept(HearthsfallenModBlocks.SILKWOOD_LEAVES.get().asItem());
 				tabData.accept(HearthsfallenModBlocks.SILKWOOD_PLANKS.get().asItem());
 				tabData.accept(HearthsfallenModBlocks.SILK_TRAP.get().asItem());
 				tabData.accept(HearthsfallenModBlocks.SILK_COVERING.get().asItem());
@@ -46,11 +48,6 @@ public class HearthsfallenModTabs {
 
 			tabData.accept(HearthsfallenModItems.SILK_SPIDER_SPAWN_EGG.get());
 			tabData.accept(HearthsfallenModItems.TEST_DUMMY_SPAWN_EGG.get());
-
-		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-
-			tabData.accept(HearthsfallenModBlocks.SILKWOOD_LOG.get().asItem());
-			tabData.accept(HearthsfallenModBlocks.SILKWOOD_LEAVES.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

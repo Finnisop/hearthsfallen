@@ -4,5 +4,5 @@
     "texture": "hearthsfallen:block/silkwoodtrapdoor",
     "particle": "hearthsfallen:block/silkwoodtrapdoor"
   },
-  "render_type": "solid"
+  "render_type": "translucent"
 }
