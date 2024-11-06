@@ -4,7 +4,11 @@ package net.mcreator.hearthsfallen.item;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.LivingEntity;
+
+import net.mcreator.hearthsfallen.procedures.TestgreatswordToolInHandTickProcedure;
 
 public class TestgreatswordItem extends SwordItem {
 	public TestgreatswordItem() {
@@ -33,5 +37,12 @@ public class TestgreatswordItem extends SwordItem {
 				return Ingredient.of();
 			}
 		}, 3, -3f, new Item.Properties());
+	}
+
+	@Override
+	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
+		TestgreatswordToolInHandTickProcedure.execute(sourceentity);
+		return retval;
 	}
 }
